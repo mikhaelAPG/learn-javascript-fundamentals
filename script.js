@@ -30,3 +30,12 @@ let myCurrentJob = "Teacher";
 let person = "jonas";
 
 console.log(myFirstJob);
+
+// practice assigments
+let country = "Indonesia";
+let continent = "Asia";
+let population = "275";
+
+console.log(country);
+console.log(continent);
+console.log(population);
