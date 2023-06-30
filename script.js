@@ -113,56 +113,76 @@
 
 // console.log(now - 1991 > now - 2019);
 
-const now = 2037;
-const ageJonas = now - 1991;
-const ageSarah = now - 2018;
+// const now = 2037;
+// const ageJonas = now - 1991;
+// const ageSarah = now - 2018;
 
-console.log(now - 1991 > now - 2019);
+// console.log(now - 1991 > now - 2019);
 
-console.log(25-10-5);
+// console.log(25-10-5);
 
-let x,y;
-x = y = 25-10-5 // x = y = 10
-console.log(x, y);
+// let x,y;
+// x = y = 25-10-5 // x = y = 10
+// console.log(x, y);
 
-const averageAge = (ageJonas + ageSarah) / 2;
-console.log(ageJonas, ageSarah, averageAge);
+// const averageAge = (ageJonas + ageSarah) / 2;
+// console.log(ageJonas, ageSarah, averageAge);
 
-// coding challenge 1
+// // coding challenge 1
 
-// massMark = 78;
-// heightMark = 1.69;
-// massJohn = 92;
-// heightJohn = 1.95;
-massMark = 95;
-heightMark = 1.88;
-massJohn = 85;
-heightJohn = 1.76;
+// // massMark = 78;
+// // heightMark = 1.69;
+// // massJohn = 92;
+// // heightJohn = 1.95;
+// massMark = 95;
+// heightMark = 1.88;
+// massJohn = 85;
+// heightJohn = 1.76;
 
-BMIMark = massMark / heightMark ** 2;
-BMIJohn = massJohn / (heightJohn * heightJohn);
+// BMIMark = massMark / heightMark ** 2;
+// BMIJohn = massJohn / (heightJohn * heightJohn);
 
-markHigherBMI = BMIMark > BMIJohn;
-console.log(BMIMark, BMIJohn, markHigherBMI);
+// markHigherBMI = BMIMark > BMIJohn;
+// console.log(BMIMark, BMIJohn, markHigherBMI);
 
-const firstName = 'Jonas';
-const job = 'teacher';
-const birthYear = 1991;
-const year = 2037;
+// const firstName = 'Jonas';
+// const job = 'teacher';
+// const birthYear = 1991;
+// const year = 2037;
 
-const jonas = "I'm " + firstName + ', a ' + (year - birthYear) + ' year old ' + job + '!';
-console.log(jonas);
+// const jonas = "I'm " + firstName + ', a ' + (year - birthYear) + ' year old ' + job + '!';
+// console.log(jonas);
 
-// template literals
-const jonasNew = `I'm ${firstName}, a ${year - birthYear} year old ${job}!`;
-console.log(jonasNew);
+// // template literals
+// const jonasNew = `I'm ${firstName}, a ${year - birthYear} year old ${job}!`;
+// console.log(jonasNew);
 
-console.log(`Just a regular string...`);
+// console.log(`Just a regular string...`);
 
-console.log('String with \n\
-multiple \n\
-lines');
+// console.log('String with \n\
+// multiple \n\
+// lines');
 
-console.log(`String
-multiple
-lines`);
+// console.log(`String
+// multiple
+// lines`);
+
+const age = 15;
+const isOldEnough = age >= 19;
+
+if (isOldEnough) {
+    console.log('Sarah can start driving license');
+} else {
+    const yearLeft = 18 - age;
+    console.log(`Sarah is to young. Wait another ${yearLeft} years :)`);
+}
+
+const birthYear = 2012;
+
+let century;
+if (birthYear <= 2000) {
+    century = 20;
+} else {
+    century = 21;
+}
+console.log(century);
