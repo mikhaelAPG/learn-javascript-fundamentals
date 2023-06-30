@@ -1,84 +1,84 @@
-let js = 'amazing';
-// if (js === 'amazing') alert('JavaScript is FUN!');
-// if still want to display explicit ouput to result use console.log(40 + 8 + 23 - 10);
-console.log(40 + 8 + 23 - 10);
+// let js = 'amazing';
+// // if (js === 'amazing') alert('JavaScript is FUN!');
+// // if still want to display explicit ouput to result use console.log(40 + 8 + 23 - 10);
+// console.log(40 + 8 + 23 - 10);
 
-// if still want to display explicit ouput to result use console.log(40 + 8 + 23 - 10); 
-console.log(40 + 8 + 23 - 10);
-console.log("Jonas");
-console.log(23);
+// // if still want to display explicit ouput to result use console.log(40 + 8 + 23 - 10); 
+// console.log(40 + 8 + 23 - 10);
+// console.log("Jonas");
+// console.log(23);
 
-// variable and values
-// let firstName = "matilda";
+// // variable and values
+// // let firstName = "matilda";
 
-// console.log(firstName);
-// console.log(firstName);
-// console.log(firstName);
+// // console.log(firstName);
+// // console.log(firstName);
+// // console.log(firstName);
 
-// variables name conventions
-let jonas_matilda = "JM";
-let $function = 27;
+// // variables name conventions
+// let jonas_matilda = "JM";
+// let $function = 27;
 
-let Person = "jonas";
-let PI = 3.1415;
+// let Person = "jonas";
+// let PI = 3.1415;
 
-let job1 = "programmer";
-let job2 = "teacher";
+// let job1 = "programmer";
+// let job2 = "teacher";
 
-// do this
-let myFirstJob = "Coder";
-let myCurrentJob = "Teacher";
-let person = "jonas";
+// // do this
+// let myFirstJob = "Coder";
+// let myCurrentJob = "Teacher";
+// let person = "jonas";
 
-console.log(myFirstJob);
+// console.log(myFirstJob);
 
-// practice assigments
-let country = "Indonesia";
-let continent = "Asia";
-let population = "275";
+// // practice assigments
+// let country = "Indonesia";
+// let continent = "Asia";
+// let population = "275";
 
-console.log(country);
-console.log(continent);
-console.log(population);
+// console.log(country);
+// console.log(continent);
+// console.log(population);
 
-/* 
-    This is multiline comment
-*/
+// /* 
+//     This is multiline comment
+// */
 
-let javascriptIsFun = true;
-console.log(javascriptIsFun);
+// let javascriptIsFun = true;
+// console.log(javascriptIsFun);
 
-console.log(typeof true);
-console.log(typeof 23);
-console.log(typeof 'Jonas');
-console.log(typeof javascriptIsFun);
+// console.log(typeof true);
+// console.log(typeof 23);
+// console.log(typeof 'Jonas');
+// console.log(typeof javascriptIsFun);
 
 
-javascriptIsFun = 'YES!';
-console.log(typeof javascriptIsFun);
+// javascriptIsFun = 'YES!';
+// console.log(typeof javascriptIsFun);
 
-let year;
-console.log(year);
-console.log(typeof year);
+// let year;
+// console.log(year);
+// console.log(typeof year);
 
-year = 1991;
-console.log(typeof year);
+// year = 1991;
+// console.log(typeof year);
 
-console.log(typeof null); // bugs and error di js, hasilnya object
+// console.log(typeof null); // bugs and error di js, hasilnya object
 
-// mutable variable/variable dapat diubah
-let age = 30;
-age = 31;
+// // mutable variable/variable dapat diubah
+// let age = 30;
+// age = 31;
 
-// imutable variable/variable tidak dapat diubah
-const birthYear = 1993;
-// birthYear = 1990;
+// // imutable variable/variable tidak dapat diubah
+// const birthYear = 1993;
+// // birthYear = 1990;
 
-// const job; // membutuhkan initial value ketika menggunakan const
+// // const job; // membutuhkan initial value ketika menggunakan const
 
-// sama seperti let cuman ini adalah cara dari versi js sebelumnya es6, jangan menggunakan var
-var job = 'programmer';
-job = "teacher";
+// // sama seperti let cuman ini adalah cara dari versi js sebelumnya es6, jangan menggunakan var
+// var job = 'programmer';
+// job = "teacher";
 
 // lastName = 'Schemedmann';
 // console.log(lastName);
@@ -128,6 +128,8 @@ console.log(x, y);
 const averageAge = (ageJonas + ageSarah) / 2;
 console.log(ageJonas, ageSarah, averageAge);
 
+// coding challenge 1
+
 // massMark = 78;
 // heightMark = 1.69;
 // massJohn = 92;
@@ -142,3 +144,25 @@ BMIJohn = massJohn / (heightJohn * heightJohn);
 
 markHigherBMI = BMIMark > BMIJohn;
 console.log(BMIMark, BMIJohn, markHigherBMI);
+
+const firstName = 'Jonas';
+const job = 'teacher';
+const birthYear = 1991;
+const year = 2037;
+
+const jonas = "I'm " + firstName + ', a ' + (year - birthYear) + ' year old ' + job + '!';
+console.log(jonas);
+
+// template literals
+const jonasNew = `I'm ${firstName}, a ${year - birthYear} year old ${job}!`;
+console.log(jonasNew);
+
+console.log(`Just a regular string...`);
+
+console.log('String with \n\
+multiple \n\
+lines');
+
+console.log(`String
+multiple
+lines`);
