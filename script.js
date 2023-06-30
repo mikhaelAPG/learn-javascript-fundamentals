@@ -65,3 +65,20 @@ year = 1991;
 console.log(typeof year);
 
 console.log(typeof null); // bugs and error di js, hasilnya object
+
+// mutable variable/variable dapat diubah
+let age = 30;
+age = 31;
+
+// imutable variable/variable tidak dapat diubah
+const birthYear = 1993;
+birthYear = 1990;
+
+// const job; // membutuhkan initial value ketika menggunakan const
+
+// sama seperti let cuman ini adalah cara dari versi js sebelumnya es6, jangan menggunakan var
+var job = 'programmer';
+job = "teacher";
+
+lastName = 'Schemedmann';
+console.log(lastName);
