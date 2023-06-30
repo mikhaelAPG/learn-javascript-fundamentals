@@ -9,11 +9,11 @@ console.log("Jonas");
 console.log(23);
 
 // variable and values
-let firstName = "matilda";
+// let firstName = "matilda";
 
-console.log(firstName);
-console.log(firstName);
-console.log(firstName);
+// console.log(firstName);
+// console.log(firstName);
+// console.log(firstName);
 
 // variables name conventions
 let jonas_matilda = "JM";
@@ -72,7 +72,7 @@ age = 31;
 
 // imutable variable/variable tidak dapat diubah
 const birthYear = 1993;
-birthYear = 1990;
+// birthYear = 1990;
 
 // const job; // membutuhkan initial value ketika menggunakan const
 
@@ -80,5 +80,35 @@ birthYear = 1990;
 var job = 'programmer';
 job = "teacher";
 
-lastName = 'Schemedmann';
-console.log(lastName);
+// lastName = 'Schemedmann';
+// console.log(lastName);
+
+// Math operators
+const now = 2037;
+const ageJonas = now - 1991;
+const ageSarah = now - 2018;
+console.log(ageJonas, ageSarah);
+
+console.log(ageJonas * 2, ageJonas / 2, 2 ** 3);
+// 2 ** 3 means 2 to the power of 3 = 2 * 2 * 2
+
+const firstName = 'Jonas';
+const lastName = 'Schemedmann';
+console.log(firstName + ' ' + lastName);
+
+// Assigment operators
+let x = 10 + 5; // 15
+x += 10; // x = x + 10 = 25
+x *= 4; // x = x * 4 = 100
+x++; // x = x + 1 = 101
+x--; // x = x - 1 = 100
+x--; // x = x - 1 = 99
+console.log(x);
+
+// Comparison operators
+console.log(ageJonas > ageSarah); // >, <, >=, <=
+console.log(ageSarah >= 18);
+
+const isFullAge = ageSarah >= 18;
+
+console.log(now - 1991 > now - 2019);
