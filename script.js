@@ -300,6 +300,7 @@ if (hasDriversLicense && hasGoodVision && !isTired) {
     console.log('Someone else should drive...');
 }
 
+// coding challenge 3
 // const scoreDolphins = (96 + 108 + 89) / 3;
 // const scoreKoalas = (88 + 91 + 110) / 3;
 // console.log(scoreDolphins, scoreKoalas);
